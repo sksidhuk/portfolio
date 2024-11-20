@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+body,
+p,
+div {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+body div h1,
+body div h2,
+body div h3,
+body div h4,
+body div h5,
+body div h6,
+strong {
+    font-weight: 700;
+    font-family: "Noto Serif Display", serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.black-background {
+    background-color: #222;
+    color: #c6bebe;
+}
+
+.black-background p {
+    color: #c6bebe;
+    margin: 0;
+}
